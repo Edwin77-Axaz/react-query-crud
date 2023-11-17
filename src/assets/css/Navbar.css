@@ -1,0 +1,127 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #01035c;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgb(1, 208, 235);
+    height: 60px;
+    position: fixed; 
+    top: 0; 
+    width: 96%; 
+    z-index: 100; 
+    border-radius: 6px;
+    
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 160px;
+  }
+  
+  .search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search button {
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+ /* Estilos para el modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(27, 4, 158, 0.8); /* Fondo con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(169, 242, 255, 0.8); /* Sombra con opacidad */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.modal button {
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Estilos para el botón circular del menú */
+.menu-button {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+  }
+  
+  .menu-button button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el menú desplegable */
+  .menu-options {
+    position: absolute;
+    top: 50px; /* Ajusta la posición vertical según tus necesidades */
+    left: -80px; /* Ajusta la posición horizontal según tus necesidades */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .menu-options.active {
+    display: block;
+  }
+  
+  .menu-options button {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-options button:hover {
+    background-color: #f0f0f0;
+  }
+  

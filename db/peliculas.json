@@ -1,0 +1,31 @@
+{
+  "peliculas": [
+    {
+      "nombre": "Vengadores: Endgame",
+      "Descripcion": "Después de los devastadores eventos ocurridos en Vengadores: Infinity War, el universo está en ruinas debido a las acciones de Thanos, el Titán Loco.",
+      "año": "2020",
+      "logo": "https://th.bing.com/th/id/OIP.zMQb6RmbbXnq96EqsUWyKAHaKg?pid=ImgDet&rs=1",
+      "id": 2
+    },
+    {
+      "nombre": "Super Mario Bros",
+      "Descripcion": "Mario y su hermo Viajan a trabajes de una sueper aventura",
+      "año": "2019",
+      "logo": "https://th.bing.com/th/id/OIP.F4ZvEjXlQQR_YDw97k40bAHaLv?pid=ImgDet&rs=1",
+      "id": 3
+    },
+    {
+      "nombre": "Matrix",
+      "Descripcion": "La historia sigue a Neo, interpretado por Keanu Reeves, un programador de computadoras que descubre la verdad sobre su realidad",
+      "año": "2009",
+      "logo": "https://pic1.zhimg.com/v2-b8136e7937916ca0b2b63d3a14abc40c_r.jpg",
+      "id": 4
+    }
+  ],
+  "Categoria": [
+    {
+      "categorias": "Accion",
+      "id": 1
+    }
+  ]
+}

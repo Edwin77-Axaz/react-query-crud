@@ -25,3 +25,7 @@ dist-ssr
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+# Proteccion de credenciales locales (Metrix Clean 4.0)
+.env
+.env.*
+!.env.example
